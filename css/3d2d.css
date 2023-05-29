@@ -1,0 +1,44 @@
+body{
+  background-image: url(/img/image\ 1.svg);
+  background-repeat: no-repeat;
+  font-family: 'Poppins', sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+header{
+    width: 1000px;
+    height: 130px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
+h1 {
+  color: #fff;
+}
+
+.shapca {
+  width: 990px;
+  height: 126px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #183458;
+}
+
+.hed2{
+color: #000000;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 60px;
+position: absolute;
+width: 350px;
+height: 57px;
+left: 840px;
+top: 178px;
+
+  
+}
