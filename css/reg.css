@@ -1,0 +1,75 @@
+body{
+    background-image: url(/img/image\ 1.svg);
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+/* body, html {
+    height: 100%;
+    margin: 0;
+  } */
+
+  .ellipse {
+    position: absolute;
+    width: 994px;
+    height: 693px;
+    top: 20%;
+    left: 28%;
+    background: radial-gradient(50% 50% at 50% 50%, #D31D1D 3.65%, rgba(51, 44, 44, 0) 100%);
+  }
+  
+  h1 {
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    color: #fff;
+  }
+
+  .Registration{
+    position: absolute;
+    top: 24%;
+    left: 49.4%;
+    margin-top: 25px;
+
+
+    padding: 0 15px;
+    background-color: #f5f5f5;
+    border-radius: 6px;
+  }
+
+  .FormReg {
+    position: absolute;
+    width: 368px;
+    height: 500px;
+    left: 44%;
+    top: 33%;
+
+    background: linear-gradient(180deg, #FFFFFF 96.35%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 10px;
+  }
+
+  .InputStyle {
+
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+
+    border: none;
+    border-bottom: 2px solid black;
+  }
+
+  .buttonClik {
+    margin-top: 25px;
+    padding: 10px;
+
+
+    background-color: #051A35;
+    border-radius: 6px;
+    color: #FFF;
+  }
