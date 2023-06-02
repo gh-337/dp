@@ -107,6 +107,27 @@ h1 {
   background: radial-gradient(40% 40% at 50% 50%, #2042B9 1%, rgba(51, 44, 44, 0) 100%);
 }
 
+.buttun3d {
+  /* text buttun */
+  color: #FFFFFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+
+  /* buttun */
+  position: absolute;
+  width: 311px;
+  height: 87px;
+  left: 1125px;
+  top: 593px;
+  border: 0;
+  background: #004797;
+  border-radius: 102px;
+}
+
 .buttun2d {
   /* text buttun */
   color: #FFFFFF;
@@ -126,4 +147,13 @@ h1 {
   border: 0;
   background: #004797;
   border-radius: 96px;
+}
+
+.buttun2d:hover {
+  background-color: #2cb9cc;
+  transition: 0.3s;
+}
+.buttun3d:hover {
+  background-color: #2cb9cc;
+  transition: 0.3s;
 }
