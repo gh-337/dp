@@ -1,0 +1,214 @@
+body {
+  background-image: url(/img/image\ 1.svg);
+  background-repeat: no-repeat;
+  font-family: 'Poppins', sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+header {
+  width: 1000px;
+  height: 130px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+h1 {
+  position: fixed;
+  width: 207px;
+  height: 67px;
+  left: 856px;
+  top: 0px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+
+
+  color: #FFFFFF;
+
+  mix-blend-mode: normal;
+
+}
+
+.logo {
+  position: fixed;
+  width: 1920px;
+  height: 116px;
+  left: 0px;
+  top: 0px;
+
+  background: #183458;
+
+}
+
+.regtagle1 {
+  position: fixed;
+  width: 201px;
+  height: 5px;
+  left: 856px;
+  top: 91px;
+
+  background: linear-gradient(90.03deg, #0029FF 25.54%, rgba(240, 231, 13, 0.942708) 77.08%);
+  border-radius: 6px;
+}
+
+.regtagle2 {
+  position: absolute;
+  width: 1920px;
+  height: 995px;
+  left: 0px;
+  top: 317px;
+
+  background: #FFFFFF;
+}
+
+.b3d {
+  /* 3d basic online */
+  position: absolute;
+  width: 319px;
+  height: 55px;
+  left: 805px;
+  top: 153px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+
+  color: #FFFFFF;
+
+}
+
+.regtagle3 {
+
+  position: absolute;
+  width: 990px;
+  height: 5px;
+  left: 465px;
+  top: 237px;
+
+  background: linear-gradient(89.99deg, #ABACB1 -0.91%, #0028F9 53.13%, rgba(0, 41, 255, 0) 100%);
+  border-radius: 6px;
+}
+
+.ellipse1 {
+  position: absolute;
+  width: 819px;
+  height: 252px;
+  left: 550px;
+  top: 65px;
+
+  background: radial-gradient(40% 50% at 50% 50%, #BD9C27 0%, rgba(51, 44, 44, 0) 100%);
+}
+
+.persha {
+  position: absolute;
+  width: 559px;
+  height: 86px;
+  left: 562px;
+  top: 378px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 96px;
+  color: #000000;
+}
+
+.persha1 {
+  position: absolute;
+  width: 621px;
+  height: 86px;
+  left: 562px;
+  top: 519px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 96px;
+  color: #000000;
+
+}
+
+.persha2 {
+  position: absolute;
+  width: 621px;
+  height: 86px;
+  left: 559px;
+  top: 660px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 96px;
+  color: #000000;
+}
+
+.persha3 {
+  position: absolute;
+  width: 621px;
+  height: 86px;
+  left: 559px;
+  top: 801px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 96px;
+  color: #000000;
+}
+
+.persha4 {
+  position: absolute;
+  width: 702px;
+  height: 86px;
+  left: 559px;
+  top: 942px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 96px;
+  color: #000000;
+}
+
+.persha5 {
+  position: absolute;
+  width: 702px;
+  height: 86px;
+  left: 571px;
+  top: 1083px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 96px;
+
+  color: #000000;
+}
+
+.buttun {
+
+  /* buttun text */
+  position: absolute;
+  width: 75px;
+  height: 21px;
+  left: 1288px;
+  top: 170px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+
+  /* bottom */
+  position: absolute;
+  width: 203px;
+  height: 51px;
+  left: 1224px;
+  top: 157px;
+  border: 0;
+  background: #004797;
+  border-radius: 15px;
+}
+.buttun:hover {
+  background-color: #2cb9cc;
+  transition: 0.3s;
+}
