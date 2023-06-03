@@ -5,6 +5,9 @@ body {
   height: 100%;
   margin: 0;
 }
+
+
+
 .wrap{
   display: flex;
   justify-content: center;
@@ -16,6 +19,10 @@ header {
   height: 130px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.oll{
+  list-style: none;
 }
 
 
@@ -113,7 +120,7 @@ h1 {
   background: radial-gradient(40% 50% at 50% 50%, #BD9C27 0%, rgba(51, 44, 44, 0) 100%);
 }
 
-.persha {
+.week1 {
   position: absolute;
   width: 559px;
   height: 86px;
@@ -124,9 +131,10 @@ h1 {
   font-size: 64px;
   line-height: 96px;
   color: #000000;
+  
 }
 
-.persha1 {
+.week2 {
   position: absolute;
   width: 621px;
   height: 86px;
@@ -140,7 +148,7 @@ h1 {
 
 }
 
-.persha2 {
+.week3 {
   position: absolute;
   width: 621px;
   height: 86px;
@@ -153,7 +161,7 @@ h1 {
   color: #000000;
 }
 
-.persha3 {
+.week4 {
   position: absolute;
   width: 621px;
   height: 86px;
@@ -166,7 +174,7 @@ h1 {
   color: #000000;
 }
 
-.persha4 {
+.week5 {
   position: absolute;
   width: 702px;
   height: 86px;
@@ -179,7 +187,7 @@ h1 {
   color: #000000;
 }
 
-.persha5 {
+.week6 {
   position: absolute;
   width: 702px;
   height: 86px;
