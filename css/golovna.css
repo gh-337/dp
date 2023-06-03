@@ -19,6 +19,9 @@ header {
   height: 130px;
   margin-left: auto;
   margin-right: auto;
+  position: fixed;
+ 
+  z-index: 9999;
 }
 
 .oll{
@@ -216,7 +219,6 @@ h1 {
   color: #FFFFFF;
 
   /* bottom */
-  position: absolute;
   width: 203px;
   height: 51px;
   left: 1224px;
