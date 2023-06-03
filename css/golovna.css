@@ -30,7 +30,9 @@ h1 {
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
-  margin-left: 1000px;
+
+
+  /* margin-left: 1000px; */
 
 
   color: #FFFFFF;
@@ -42,6 +44,11 @@ h1 {
   height: 116px;
 
   background: #183458;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
