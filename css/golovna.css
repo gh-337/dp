@@ -85,19 +85,19 @@ h1 {
 
 .b3d {
   /* 3d basic online */
-  position: absolute;
-  width: 319px;
-  height: 55px;
-  left: 805px;
-  top: 153px;
 
   font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 60px;
+
+  line-height: 360px;
+
+  margin-left: auto;
+  margin-right: auto;
 
   color: #FFFFFF;
+
+  font-size: 48px;
+
+  z-index: 9999;
 
 }
 
