@@ -1,0 +1,40 @@
+body{
+  background-image: url(/img/fonImgJPG.jpg);
+  background-repeat: no-repeat;
+  background-position: center center; /* Додаємо цю властивість для центрування фонового зображення */
+  background-size: cover; /* Додаємо цю властивість для адаптивного масштабування фонового зображення */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Встановлюємо мінімальну висоту контейнера body на весь видимий екран */
+
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Додаємо цю властивість для коректного центрування зображення */
+  margin: 0 auto; /* Додаємо цю властивість для центрування зображення */
+}
+
+header, footer {
+  background-color: #f2f2f2;
+  /* padding: 20px; */
+  text-align: center;
+}
+
+#content {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 800px;
+  /* padding: 20px; */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+footer {
+  margin-top: auto; /* Встановлюємо верхній відступ "авто", щоб футер знаходився внизу сторінки */
+}
