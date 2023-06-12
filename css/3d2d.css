@@ -98,45 +98,19 @@ h1 {
   color: rgb(255, 255, 255);
 }
 
-
-
-/* .buttun3d {
-  
-  color: #FFFFFF;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  margin-left: -295px;
- 
+.buttun {
   width: 311px;
   height: 70px;
+  background-color: #183458;
+  border-radius: 40px;
   border: 0;
-  background: #004797;
-  border-radius: 102px;
-} */
-
-.buttun2d {
-  
-  color: #FFFFFF;
+  color: #fff;
   font-size: 20px;
-  font-style: normal;
-  font-weight: 600;
-  
-  margin: 300px auto;
-  width: 311px;
-  height: 70px;
-  border: 0;
-  background: #004797;
-  border-radius: 96px;
+  font-weight:600 ;
 }
 
-.buttun2d:hover {
+.buttun:hover {
   background-color: #2cb9cc;
   transition: 0.3s;
 }
 
-.buttun3d:hover {
-  background-color: #2cb9cc;
-  transition: 0.3s;
-}
