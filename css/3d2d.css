@@ -1,9 +1,18 @@
 body {
+
   background-image: url(/img/fonImgJPG.jpg);
   background-repeat: no-repeat;
+  background-position: center center;
+  /* Додаємо цю властивість для центрування фонового зображення */
+  background-size: cover;
+  /* Додаємо цю властивість для адаптивного масштабування фонового зображення */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* Встановлюємо мінімальну висоту контейнера body на весь видимий екран */
   font-family: 'Poppins', sans-serif;
-  height: 100%;
-  margin: 0;
+
+
 }
 
 header {
@@ -30,82 +39,66 @@ h1 {
 
 }
 
-.hed2 {
-  color: #000000;
+#content {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 100%;
+  max-height: 100%;
 }
 
-.logohed2 {
-  /* бек тексту */
-  position: absolute;
-  width: 291px;
+.kurs {
+  /* бек */
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
   height: 79px;
-  left: 814px;
-  top: 167px;
-  border-radius: 13px 13px 13px 13px;
-  background-color: #ffffff;
-  /*Текст  */
-  font-family: 'Poppins', sans-serif;
+  background: #ffffff;
+  border-radius: 15px;
+  /*  */
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
-  line-height: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* margin-top: 20px; */
+  line-height: 75px;
+  color: rgb(0, 0, 0);
 }
 
-/* 3d basice online */
-.d3 {
-  position: absolute;
-  width: 191px;
-  height: 111px;
-  left: 455px;
-  top: 396px;
 
-  font-family: 'Poppins';
+.b3 {
+  /* бек */
+  margin: 90px auto;
+  margin-left: -400px;
+  margin-right: auto;
+  width: 371px;
+  height: 383px;
+  background: linear-gradient(180.06deg, rgba(240, 231, 13, 0.942708) 0.05%, rgba(240, 231, 13, 0) 130.08%);
+  border-radius: 13px;
+  /*  */
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 40px;
-  line-height: 40px;
-
-  color: #FFFFFF;
+  line-height: 200px;
+  color: rgb(255, 255, 255);
 }
 
-.d2 {
-  position: absolute;
-  width: 191px;
-  height: 111px;
-  left: 1125px;
-  top: 396px;
-
-  font-family: 'Poppins';
+.b2 {
+  /* бек */
+  margin: -473px auto;
+  margin-left: auto;
+  margin-right: -400px;
+  width: 371px;
+  height: 383px;
+  background: linear-gradient(180.05deg, rgba(13, 36, 240, 0.942708) 0.04%, rgba(31, 31, 25, 0) 158.92%);
+  border-radius: 13px;
+  /*  */
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 40px;
-  line-height: 40px;
-
-  color: #FFFFFF;
+  line-height: 200px;
+  color: rgb(255, 255, 255);
 }
 
-.ellipse3d {
-  position: absolute;
-  width: 808px;
-  height: 550px;
-  left: 255px;
-  top: 246px;
-  background: radial-gradient(40% 40% at 50% 50%, #BD9C27 1%, rgba(51, 44, 44, 0) 100%);
-}
 
-.ellipse2d {
-  position: absolute;
-  width: 905px;
-  height: 626px;
-  left: 840px;
-  top: 194px;
-
-  background: radial-gradient(40% 40% at 50% 50%, #2042B9 1%, rgba(51, 44, 44, 0) 100%);
-}
 
 .buttun3d {
   /* text buttun */
@@ -114,15 +107,12 @@ h1 {
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
-  line-height: 30px;
-  text-align: center;
-
+  margin: 300px auto;
+  margin-right: auto;
+  margin-left: -295px;
   /* buttun */
-  position: absolute;
   width: 311px;
   height: 87px;
-  left: 1125px;
-  top: 593px;
   border: 0;
   background: #004797;
   border-radius: 102px;
@@ -134,16 +124,12 @@ h1 {
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
-  line-height: 30px;
-  text-align: center;
-
   /* Buttun */
-  position: absolute;
+  margin: 300px auto;
+  margin-right: -800px;
+  margin-left: -777;
   width: 311px;
   height: 87px;
-  left: 455px;
-  top: 593px;
   border: 0;
   background: #004797;
   border-radius: 96px;
@@ -153,6 +139,7 @@ h1 {
   background-color: #2cb9cc;
   transition: 0.3s;
 }
+
 .buttun3d:hover {
   background-color: #2cb9cc;
   transition: 0.3s;
