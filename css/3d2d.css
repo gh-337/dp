@@ -100,36 +100,32 @@ h1 {
 
 
 
-.buttun3d {
-  /* text buttun */
+/* .buttun3d {
+  
   color: #FFFFFF;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
-  margin: 300px auto;
-  margin-right: auto;
   margin-left: -295px;
-  /* buttun */
+ 
   width: 311px;
-  height: 87px;
+  height: 70px;
   border: 0;
   background: #004797;
   border-radius: 102px;
-}
+} */
 
 .buttun2d {
-  /* text buttun */
+  
   color: #FFFFFF;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
-  /* Buttun */
+  
   margin: 300px auto;
-  margin-right: -800px;
-  margin-left: -777;
   width: 311px;
-  height: 87px;
+  height: 70px;
   border: 0;
   background: #004797;
   border-radius: 96px;

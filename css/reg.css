@@ -1,53 +1,82 @@
-body{
-    background-image: url(/img/fonImgJPG.jpg);
-    background-repeat: no-repeat;
-    font-family: 'Poppins', sans-serif;
-    height: 100%;
-    margin: 0;
+body {
+  background-image: url(/img/fonImgJPG.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* Додаємо цю властивість для центрування фонового зображення */
+  background-size: cover;
+  /* Додаємо цю властивість для адаптивного масштабування фонового зображення */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* Встановлюємо мінімальну висоту контейнера body на весь видимий екран */
+  font-family: 'Poppins', sans-serif;
+ 
 }
+    #heder {
+      font-size: 48px;
+      text-align: center;
+      margin-right: auto;
+      margin-left: 500px;
+      margin: 100px auto;
+      color: #fff;
+    }
 
-/* body, html {
-    height: 100%;
-    margin: 0;
-  } */
-
-  .ellipse {
-    position: absolute;
-    width: 994px;
-    height: 693px;
-    top: 20%;
-    left: 28%;
-    background: radial-gradient(50% 50% at 50% 50%, #D31D1D 3.65%, rgba(51, 44, 44, 0) 100%);
+  .wrap {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
   }
+    .log{
+    color: #000000;
+    text-align: center;
+    background-color: #FFF;
+    
+    width: 150px;
+    height: 33px;
+    margin-top: -600px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
   
-  h1 {
-    position: absolute;
-    top: 16%;
-    left: 50%;
-    color: #fff;
+    }
+    .elips {
+      margin: -80px auto;
+      width: 800px;
+      height: 693px;
+      background: radial-gradient(40% 40% at 50% 50%, #313131 3.65%, rgba(73, 0, 0, 0) 100%);
+    }
+    
+    .back{
+      width: 368px;
+      height: 500px;
+      margin-top: 15px;
+      margin-right: auto;
+      margin-left: auto;
+      background: linear-gradient(161.81deg, #FFFFFF 12.37%, #FFFFFF 37.65%, rgba(255, 255, 255, 0) 105.98%);
+      border-radius: 10px;
+     
+    }
+  .email{
+    color: green;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;    
   }
 
-  .Registration{
-    position: absolute;
-    top: 24%;
-    left: 49.4%;
-    margin-top: 25px;
-
-
-    padding: 0 15px;
-    background-color: #f5f5f5;
-    border-radius: 6px;
+  .password{
+    color: green;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
   }
-
-  .FormReg {
-    position: absolute;
-    width: 368px;
-    height: 500px;
-    left: 44%;
-    top: 33%;
-
-    background: linear-gradient(180deg, #FFFFFF 96.35%, rgba(255, 255, 255, 0) 100%);
-    border-radius: 10px;
+  .password2{
+    color: green;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
   }
 
   .InputStyle {
@@ -59,17 +88,29 @@ body{
     border: none;
     outline: none;
     background: none;
-
+   
     border: none;
     border-bottom: 2px solid black;
+    margin-top: 15px;
   }
 
   .buttonClik {
     margin-top: 25px;
     padding: 10px;
-
-
+    border: 0;
     background-color: #051A35;
     border-radius: 6px;
     color: #FFF;
   }
+  .buttonClik:hover {
+    background-color: #464747;
+    transition: 0.3s;
+  }
+  
+
+
+
+  .ift2 {
+    margin-top: 55px;
+  }
+  
