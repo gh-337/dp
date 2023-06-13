@@ -179,6 +179,34 @@ img {
   font-size: 24px;
   margin-top: 15px;
  }
+ .text3{
+  color: #000;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  margin-top: 15px;
+  width: 170px;
+  margin-left: 70%;
+  display: inline-block;
+  margin-top: 15px;
+
+ }
+ .next1{
+  margin-left: 40px;
+  border: 0;
+  background-color: #ffff;
+ }
+
+ .next1:hover {
+  background-color: #d1d1d1;
+  transition: 0.3s;
+}
+.text3:hover {
+  background-color: #d1d1d1;
+  transition: 0.3s;
+}
+
+ 
  #myVideo {
   width: 100%; /* задаємо ширину відео на весь батьківський контейнер */
   height: auto; /* автоматична висота для збереження пропорцій */
