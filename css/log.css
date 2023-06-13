@@ -10,8 +10,8 @@ body {
   min-height: 100vh;
   /* Встановлюємо мінімальну висоту контейнера body на весь видимий екран */
   font-family: 'Poppins', sans-serif;
- 
 }
+
     #heder {
       font-size: 48px;
       text-align: center;
