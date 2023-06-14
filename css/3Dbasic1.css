@@ -189,12 +189,54 @@ img {
   margin-left: 70%;
   display: inline-block;
   margin-top: 15px;
-
  }
+
+ .text4{
+  font-size: 32px;
+  font-weight: 600;
+ }
+ .text5{
+  font-weight: 600;
+  font-size: 24px;
+  width: 500px;
+  margin-top: 15px;
+ }
+ .text6{
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 40px;
+ }
+ .text7{
+  font-weight: 600;
+  font-size: 24px;
+  width: 950px;
+  margin-top: 15px;
+  
+ }
+
+
+ .regali{
+    width: 485px;
+  height: 2px;
+  background-color: #000;
+ }
+
  .next1{
-  margin-left: 40px;
+  margin-left: 60px;
+
   border: 0;
+  width: 54px;
+  height: 44px;
+ 
   background-color: #ffff;
+ }
+
+ .baton{
+  display: inline-block;
+  height: 44px;
+ }
+ .a1{
+  align-items: center;
  }
 
  .next1:hover {
@@ -206,11 +248,54 @@ img {
   transition: 0.3s;
 }
 
- 
  #myVideo {
   width: 100%; /* задаємо ширину відео на весь батьківський контейнер */
   height: auto; /* автоматична висота для збереження пропорцій */
   border: 1px solid black; /* приклад стилю рамки */
   margin-top: 15px ;
   /* інші стилі, які ви бажаєте задати */
+}
+
+.yello-blue{
+width: 100%;
+margin-top: 150px;
+height: 11px;
+background: linear-gradient(89.99deg, #0029FF -0.91%, #0028F9 49.02%, rgba(245, 250, 0, 0.775862) 57.95%);
+border-radius: 6px;
+}
+.grey{
+  width: 100%;
+  margin-top:0  ;
+height: 1782px;
+background: #3D5169;
+}
+.text8{
+  color: #fff;
+width: 1326px;
+height: 96px;
+margin-top: 100px;
+font-weight: 600;
+font-size: 64px;
+}
+.text9{
+  color: #fff;
+  width: 1200px;
+  height: 96px;
+  margin-top: 40px;
+  font-weight: 600;
+  font-size: 24px;
+}
+.conteyner2{
+  max-width: 1200px;
+  max-height: 100%;
+  margin: 10px ;
+  margin-right: auto;
+  margin-left: auto;
+  list-style: none;
+}
+.regali2{
+background-color: #fff;
+width: 1240px;
+height: 5px;
+border-radius: 10px;
 }
