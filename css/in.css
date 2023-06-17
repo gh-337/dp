@@ -9,6 +9,155 @@ body {
   flex-direction: column;
   min-height: 100vh;
   /* Встановлюємо мінімальну висоту контейнера body на весь видимий екран */
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
+a {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #fff;
+  text-underline-offset: 4px;
+}
+
+
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+}
+
+header {
+  margin-top: 37px;
+  width: 1024px;
+  /* background-color: #183458; */
+  /* text-align: center; */
+  top: 0;
+  height: 64px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1{
+margin: 0;
+
+  display: inline-block;
+  color: #fff;
+
+  align-self: flex-start;
+
+  font-weight: 600;
+font-size: 48px;
+line-height: 72px;
+}
+
+.jcsbl{
+  align-items: center;
+}
+
+.infoKurs{
+  display: inline-block;
+
+  align-items: center;
+}
+
+.menu {
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+  margin: auto;
+
+  color: #fff;
+
+  
+}
+
+.menu li {
+  margin-right: 32px;
+
+  color: #fff;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.kursA{
+  color: crimson;
+}
+
+.logReg{
+  display: inline-block;
+
+}
+
+.menu2 {
+padding: 56;
+
+  list-style: none;
+
+  display: flex;
+
+}
+
+.menu2 li {
+  margin-right: 32px;
+ 
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  
+  color: #FFFFFF;
+  }
+
+.menu2 li:last-child {
+  margin-right: 0;
+}
+
+.rlR{
+  background-color: white;
+  border: 2px ;
+  border-radius: 6px;
+  color: black;
+
+  padding: 1px 15px;
+
+
+  text-decoration: none;
+}
+
+.content{
+
+
+  display: flex;
+  /* justify-content: center; Центрування горизонтально */
+
+  margin-top: 3%;
+  margin-left: 18%;
+
+  font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 96px;
+
+color: #FFFFFF;
+
+flex: 1 0 auto;
+}
+
+footer{
+  flex-shrink: 0;
+
+  display: flex;
+  justify-content: right;
+
+  margin-right: 13%;
+  margin-bottom: 3%;
+}

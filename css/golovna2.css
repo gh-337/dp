@@ -25,6 +25,7 @@ header  {
 img {
   max-width: 100%;
   height: auto;
+  w10
   display: block;
   /* Додаємо цю властивість для коректного центрування зображення */
   margin: 0 auto;

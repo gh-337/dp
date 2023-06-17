@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="google-site-verification" content="Ge_68RjfKp-b0TXGEQ3dPiSLHchIWE4yUsrLaU1fEDc" />
+    <meta property="fb:app_id" content="1526605170850679" />
+
+        <title>ArtCraft Education</title>
+    <script src="/vendors/jquery.min.js"></script>
+
+    <link href="//fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900i&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="/vendors/bootstrap/css/bootstrap.min.css?1573139349">
+
+    <link rel="stylesheet" href="/static/js/plugins/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="/static/css/main.min.css?1651761517">
+    <link rel="stylesheet" href="/static/css/mobile.min.css?1645714427">
+    <link rel="stylesheet" href="test.css">
+    
+    <script>
+        var i18n = {
+            userWizardPreTextCreateAccount: 'Створи аккаунт',
+            userWizardPreTextTypeYourPassword: 'Увійти',
+            userWizardFormPasswordLabel: 'Пароль',
+            userWizardFormCreatePasswordLabel: 'Створи свій пароль',
+            userWizardFormButtonSubmitLogin: 'Вхід',
+            userWizardFormButtonSubmitVerifyEmail: 'Перевірити Email',
+            userWizardFormButtonSubmitCreateAccount: 'Створити акаунт',
+            acceptRequiredMessage: "\n         \u0414\u043b\u044f \u043f\u0440\u043e\u0434\u043e\u0432\u0436\u0435\u043d\u043d\u044f \u0440\u0435\u0454\u0441\u0442\u0440\u0430\u0446\u0456\u0457, \u0431\u0443\u0434\u044c \u043b\u0430\u0441\u043a\u0430, \u043e\u0437\u043d\u0430\u0439\u043e\u043c\u0442\u0435\u0441\u044c \u0456 \u0437 \"\u041f\u0440\u0430\u0432\u0438\u043b\u0430\u043c\u0438 \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u0430\u043d\u043d\u044f \u0440\u0435\u0441\u0443\u0440\u0441\u0443\" \u0442\u0430\n        \"\u041f\u043e\u043b\u0456\u0442\u0438\u043a\u043e\u044e \u043a\u043e\u043d\u0444\u0456\u0434\u0435\u043d\u0446\u0456\u0439\u043d\u043e\u0441\u0442\u0456\".\n    ",
+            equalToPasswordMessage: "\u041f\u0430\u0440\u043e\u043b\u0456 \u043f\u043e\u0432\u0438\u043d\u043d\u0456 \u0437\u0431\u0456\u0433\u0430\u0442\u0438\u0441\u044f",
+        };
+    </script>
+
+    
+            <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    </head>
+<body class="login dark-theme gradient">
+
+
+    <div id="wrapper">
+        <main class="main-content popup-container">
+    <img src="/static/images/logo-light.svg"
+         alt="ArtCraft Education"
+         role="banner" width="180" height="55"/>
+    <div class="static-popup">
+        
+<form id="loginForm" class="vertical-order" method="POST">
+    
+    <div class="form-elements-wrap">
+        <div class="form-element-container">
+            <label for="login">Email:</label>
+            <div class="inputs-wrap">
+                
+<input type="text" name="email" id="email" value="" maxlength="60" class="high" aria-describedby="sizing-addon1">            </div>
+        </div>
+    </div>
+    <div class="form-elements-wrap">
+        <div class="form-element-container">
+            <label for="password">Пароль:</label>
+            <div class="inputs-wrap">
+                
+<input type="password" name="password" id="password" value="" maxlength="20" class="high" aria-describedby="sizing-addon1">            </div>
+        </div>
+    </div>
+    <div class="form-elements-wrap">
+        <div class="form-element-container">
+            <label class="styled-check-wrap">
+                <span class="check-btn"></span>
+                <span class="check-label-text">Запам'ятати мене на цьому комп'ютері</span>
+                <input type="checkbox" name="remember">
+            </label>
+        </div>
+    </div>
+    <div class="form-elements-wrap">
+        <div class="form-element-container centered">
+            <button type="submit" class="form-button purple">Увійти</button>
+        </div>
+    </div>
+    <div class="form-elements-wrap no-margin">
+        <div class="form-element-container centered">
+            <a href="/user/lost-password" id="recoverAuth" class="some-form-link">Відновлення паролю</a>
+        </div>
+    </div>
+</form>
+        
+<form id="recoveryForm" class="vertical-order" method="POST" action="/user/lost-password">
+    <input type="hidden" name="productId" value="">
+    <div class="form-elements-wrap">
+        <div class="form-element-container">
+            <label for="email">Email:</label>
+            <div class="inputs-wrap">
+                
+<input type="text" name="email" id="recoveryEmail" value="" class="high" aria-describedby="sizing-addon1">            </div>
+        </div>
+    </div>
+    <div class="form-elements-wrap">
+        <div class="form-element-container centered">
+            <button type="submit" class="form-button purple">Надіслати</button>
+        </div>
+    </div>
+
+            <div class="form-elements-wrap no-margin">
+            <div class="form-element-container centered">
+                <a href="#" id="backAuth" class="some-form-link">Увійти</a>
+            </div>
+        </div>
+    </form>
+    </div>
+</main>
+    </div>
+
+    
+<footer id="siteFooter">
+    <nav id="footerNavigation">
+        <ul id="footerMenu">
+                                        <li>
+                    <a href="/polityka-konfidencijnosti">
+                        Політика конфіденційності                    </a>
+                </li>
+                                        <li>
+                    <a href="/dogovir-oferty">
+                        Договір оферти                    </a>
+                </li>
+                        <li>
+                <a href="/cdn-cgi/l/email-protection#73000603031c01073312010710011215075d1617061012071a1c1d">
+                    <span class="__cf_email__" data-cfemail="eb989e9b9b84999fab8a999f88998a8d9fc58e8f9e888a9f828485">[email&#160;protected]</span>                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="copyright-warning">
+            Поширення матеріалів із ресурсу суворо заборонено та захищене авторським правом.        </div>
+        <div class="copyright-info">ArtCraft &copy; 2016-2023</div>
+    </div>
+</footer>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/vendors/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="/static/js/plugins/validate/jquery.validate.min.js"></script>
+    <script src="/static/js/plugins/validate/localization/messages_uk.js" type="text/javascript"></script>
+    <script src="/static/js/plugins/jquery-ui/jquery-ui.min.js"></script>
+    <script src="/static/js/utils.min.js?1645714427"></script>
+    <script src="/static/js/login.js?1573315814"></script>
+    </body>
+</html>
