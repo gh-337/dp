@@ -1,5 +1,5 @@
 body {
-  background-image: url(/img/fonImgJPG.jpg);
+  background-image: url(/img/back.svg);
   background-repeat: no-repeat;
   background-position: center center;
   /* Додаємо цю властивість для центрування фонового зображення */
@@ -12,6 +12,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+
     #heder {
       font-size: 48px;
       text-align: center;
@@ -20,12 +21,40 @@ body {
       margin: 100px auto;
       color: #fff;
     }
-
   .wrap {
+    /* max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    flex: 1 0 auto;
+    flex: 1 0 auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
+  @media (max-height:1200px) {
+    .wrap{
+      max-height: 676px;
+    }
+  }
+    @media (max-width:992px) {
+      .wrap{
+        max-width: 750px;
+      }
+    }
+    @media (max-width:767px) {
+      body::before {
+        display: none;
+        content: "xs";
+    }
+      }
+      @media (max-width: 991.98px){
+    body::before {
+    content: "sm";
+}
+    }
+
+
+
     .log{
     color: #000000;
     text-align: center;

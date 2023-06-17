@@ -237,9 +237,14 @@ header{
 
 /* test */
 
+<<<<<<< HEAD
 .icons{
     width: 75px;
 }
+=======
+/* .icons{
+} */
+>>>>>>> ec26f2b8c10cd50ebdb6eae629e3026bf14d0e7b
 
 .icon{
     width: 50px;

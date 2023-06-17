@@ -1,0 +1,301 @@
+body {
+  background-image: url(/img/fonImgJPG.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* Додаємо цю властивість для центрування фонового зображення */
+  background-size: cover;
+  /* Додаємо цю властивість для адаптивного масштабування фонового зображення */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* Встановлюємо мінімальну висоту контейнера body на весь видимий екран */
+  font-family: 'Poppins', sans-serif;
+
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header  {
+  background-color: #183458;
+  text-align: center;
+  color: aliceblue;
+}
+.wrap {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  /* Додаємо цю властивість для коректного центрування зображення */
+  margin: 0 auto;
+  /* Додаємо цю властивість для центрування зображення */
+}
+
+
+.week1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  margin: 0px auto;
+}
+
+.week2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  margin: 100px auto;
+}
+
+.week3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  margin: 100px auto;
+}
+.week4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  margin: 100px auto;
+}
+.week5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  margin: 100px auto;
+}
+.week6 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  margin: 100px auto;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  height: 100px;
+
+  width: 100%;
+  background: #183458;
+  z-index: 1;
+
+}
+
+#logo {
+  height: 100px;
+  width: 207px;
+  margin: 0 auto;
+  font-size: 48px;
+  line-height: 95px;
+}
+
+
+
+#content {
+  text-align: center;
+  margin: 140px auto;
+  max-width: 1200px;
+  max-height: 100%;
+  /* padding: 20px; */
+}
+
+.d3 {
+  color: aliceblue;
+  font-size: 30px;
+}
+
+.elips {
+  margin: -150px auto;
+  width: 700px;
+  height: 252px;
+  background: radial-gradient(40% 40% at 50% 50%, #BD9C27 0%, rgba(51, 44, 44, 0) 100%);
+}
+
+.white-blue {
+  margin: 30px auto;
+  width: 990px;
+  height: 5px;
+  background: linear-gradient(89.99deg, #ABACB1 -0.91%, #0028F9 53.13%, rgba(0, 41, 255, 0) 100%);
+  border-radius: 6px;
+}
+
+#yello-blue {
+  margin: -10px auto;
+  width: 201px;
+  height: 5px;
+  background: linear-gradient(90.03deg, #0029FF 25.54%, rgba(240, 231, 13, 0.942708) 77.08%);
+  border-radius: 6px;
+}
+.buttun1 {
+  margin: 0 auto;
+  margin-left: 770px;
+  width: 203px;
+  height: 51px;
+  color: aliceblue;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  background: #004797;
+  border-radius: 15px;
+}
+
+.buttun1:hover {
+  background-color: #01217a;
+  transition: 0.2s;
+}
+
+.white {
+  background-color: white;
+  margin: -100px auto;
+  width: 100%;
+  height: 100vh;
+  /* Займе всю висоту сторінки */
+}
+
+.conteyner {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 10px ;
+  margin-right: auto;
+  margin-left: auto;
+  list-style: none;
+}
+.text1{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  margin-top: 61px;
+ }
+
+ .text2{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 15px;
+ }
+ .text3{
+  color: #000;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  margin-top: 15px;
+  width: 170px;
+  margin-left: 70%;
+  display: inline-block;
+  margin-top: 15px;
+ }
+
+ .text4{
+  font-size: 32px;
+  font-weight: 600;
+ }
+ .text5{
+  font-weight: 600;
+  font-size: 24px;
+  width: 500px;
+  margin-top: 15px;
+ }
+ .text6{
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 40px;
+ }
+ .text7{
+  font-weight: 600;
+  font-size: 24px;
+  width: 950px;
+  margin-top: 15px;
+  
+ }
+
+
+ .regali{
+    width: 485px;
+  height: 2px;
+  background-color: #000;
+ }
+
+ .next1{
+  margin-left: 60px;
+
+  border: 0;
+  width: 54px;
+  height: 44px;
+ 
+  background-color: #ffff;
+ }
+
+ .baton{
+  display: inline-block;
+  height: 44px;
+ }
+ .a1{
+  align-items: center;
+ }
+
+ .next1:hover {
+  background-color: #d1d1d1;
+  transition: 0.3s;
+}
+.text3:hover {
+  background-color: #d1d1d1;
+  transition: 0.3s;
+}
+
+ #myVideo {
+  width: 100%; /* задаємо ширину відео на весь батьківський контейнер */
+  height: auto; /* автоматична висота для збереження пропорцій */
+  border: 1px solid black; /* приклад стилю рамки */
+  margin-top: 15px ;
+  /* інші стилі, які ви бажаєте задати */
+}
+
+.yello-blue{
+width: 100%;
+margin-top: 150px;
+height: 11px;
+background: linear-gradient(89.99deg, #0029FF -0.91%, #0028F9 49.02%, rgba(245, 250, 0, 0.775862) 57.95%);
+border-radius: 6px;
+}
+.grey{
+  width: 100%;
+  margin-top:0  ;
+height: 1782px;
+background: #3D5169;
+}
+.text8{
+  color: #fff;
+width: 1326px;
+height: 96px;
+margin-top: 100px;
+font-weight: 600;
+font-size: 64px;
+}
+.text9{
+  color: #fff;
+  width: 1200px;
+  height: 96px;
+  margin-top: 40px;
+  font-weight: 600;
+  font-size: 24px;
+}
+.conteyner2{
+  max-width: 1200px;
+  max-height: 100%;
+  margin: 10px ;
+  margin-right: auto;
+  margin-left: auto;
+  list-style: none;
+}
+.regali2{
+background-color: #fff;
+width: 1240px;
+height: 5px;
+border-radius: 10px;
+}
