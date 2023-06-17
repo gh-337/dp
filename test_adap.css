@@ -55,6 +55,11 @@ a {
         max-width: 750px;
     } */
 
+    body{
+  background-image: url(/img/fonImgJPG.jpg);
+  background-repeat: no-repeat;
+    }
+
     .header{
         height: 40px;
     }
@@ -233,6 +238,7 @@ header{
 /* test */
 
 .icons{
+    width: 75px;
 }
 
 .icon{
