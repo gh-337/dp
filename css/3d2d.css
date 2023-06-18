@@ -1,6 +1,16 @@
 body {
+  background-image: url(/img/fonImgJPG.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* Додаємо цю властивість для центрування фонового зображення */
+  background-size: cover;
+  /* Додаємо цю властивість для адаптивного масштабування фонового зображення */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* Встановлюємо мінімальну висоту контейнера body на весь видимий екран */
   font-family: 'Poppins', sans-serif;
-  background: rgb(15, 49, 15);
+
 }
 
 .container {
@@ -30,7 +40,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #492424;
+  background-color: #ffffff;
   border-radius: 10px;
   margin: 10px auto;
 }
@@ -43,10 +53,18 @@ body {
 .bt {
   width: 300px;
   height: 300px;
-  margin: 10px;
+  margin: 30px;
   font-size: 30px;
-  background-color: yellow;
+  background: linear-gradient(180deg, rgba(240, 231, 13, 0.942708) -65.62%, rgba(240, 231, 13, 0) 132.29%);  border-radius: 15px;
   /* display: inline-block; */
+}
+.b{
+  width: 300px;
+  height: 300px;
+  margin: 30px;
+  font-size: 30px;
+  background: linear-gradient(180deg, #0029FF -29%, rgba(0, 41, 255, 0) 135.5%);
+  border-radius: 15px;
 }
 
 /* button{
@@ -56,25 +74,34 @@ body {
   color: red;
 } */
 
-/* .click{
+.click{
   width: 250px;
   height: 250px;
-  color: #FFF;
-  background: #000;
- 
+  color: #ffffff;
+  margin: 0 auto;
 }
 
 p{
   display: block;
-} */
+}
 
 .qwq{
-  width: 70px;
-  height: 50px;
-  background: blue;
-  color: red;
-  display: inline-block;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  width: 250px;
+  height: 60px;
+  display: block;
+  background: #183458;
+  color: #fff;
+  margin: 55% auto ;
+  border: 0;
+  border-radius: 15px;
+}
 
+.qwq:hover {
+  background-color: #39539b;
+  transition: 0.2s;
 }
 
 @media (max-width: 1300px){
@@ -100,13 +127,8 @@ p{
   .container{
     max-width: 600px;
   }
-
-  body {
-    background-color: #b74c4c;
-  }
-
   .logo{
-    background-color: #147881;
+    background-color: #183458;
 
   }
 

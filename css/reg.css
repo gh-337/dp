@@ -10,107 +10,136 @@ body {
   min-height: 100vh;
   /* Встановлюємо мінімальну висоту контейнера body на весь видимий екран */
   font-family: 'Poppins', sans-serif;
- 
+
 }
-    #heder {
-      font-size: 48px;
-      text-align: center;
-      margin-right: auto;
-      margin-left: 500px;
-      margin: 100px auto;
-      color: #fff;
-    }
 
-  .wrap {
-    display: flex;
-    flex-direction: column;
-    flex: 1 0 auto;
-  }
-    .log{
-    color: #000000;
-    text-align: center;
-    background-color: #FFF;
-    
-    width: 150px;
-    height: 33px;
-    margin-top: -600px;
-    margin-right: auto;
-    margin-left: auto;
-    line-height: 30px;
-    font-weight: 600;
-    font-size: 20px;
-    border-radius: 5px;
-  
-    }
-    .elips {
-      margin: -80px auto;
-      width: 800px;
-      height: 693px;
-      background: radial-gradient(40% 40% at 50% 50%, #313131 3.65%, rgba(73, 0, 0, 0) 100%);
-    }
-    
-    .back{
-      width: 368px;
-      height: 500px;
-      margin-top: 15px;
-      margin-right: auto;
-      margin-left: auto;
-      background: linear-gradient(161.81deg, #FFFFFF 12.37%, #FFFFFF 37.65%, rgba(255, 255, 255, 0) 105.98%);
-      border-radius: 10px;
-     
-    }
-  .email{
-    color: green;
-    margin-top: 50px;
-    text-align: center;
-    font-size: 20px;    
+.container {
+  width: 1500px;
+  margin: 0 auto;
+}
+
+.conten2 {
+  width: 250px;
+  height: 300px;
+  margin: 0 auto;
+  padding-top: 15%;
+
+}
+
+.logo {
+  color: #fff;
+  margin: 0 auto;
+  font-size: 48px;
+  display: flex;
+  margin-top: 10%;
+  align-items: center;
+  justify-content: center;
+}
+
+.vhid {
+  color: #000000;
+  margin: 0 auto;
+  font-size: 24px;
+  display: flex;
+  width: 100px;
+  height: 40px;
+  font-weight: 600;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.back {
+  background: linear-gradient(161.81deg, #FFFFFF 12.37%, #FFFFFF 37.65%, rgba(255, 255, 255, 0) 105.98%);
+  border-radius: 10px;
+  width: 368px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.email {
+  color: green;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.password {
+  color: green;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.password2 {
+  color: green;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.InputStyle {
+
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+
+  border: none;
+  border-bottom: 2px solid black;
+  margin-top: 15px;
+}
+
+.buttonClik {
+  margin-top: 50px;
+  padding: 10px;
+  border: 0;
+  background-color: #051A35;
+  border-radius: 6px;
+  color: #FFF;
+}
+
+.buttonClik:hover {
+  background-color: #464747;
+  transition: 0.3s;
+}
+
+@media (max-width: 1300px) {
+  .container {
+    max-width: 900px;
   }
 
-  .password{
-    color: green;
-    margin-top: 50px;
-    text-align: center;
-    font-size: 20px;
+  body {
+    background-color: #000000;
   }
-  .password2{
-    color: green;
-    margin-top: 50px;
-    text-align: center;
-    font-size: 20px;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    max-width: 750px;
   }
 
-  .InputStyle {
+}
 
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    -ms-appearance: none;
-    border: none;
-    outline: none;
-    background: none;
-   
-    border: none;
-    border-bottom: 2px solid black;
-    margin-top: 15px;
+
+@media (max-width: 850px) {
+  .container {
+    max-width: 600px;
   }
 
-  .buttonClik {
-    margin-top: 25px;
-    padding: 10px;
-    border: 0;
-    background-color: #051A35;
-    border-radius: 6px;
-    color: #FFF;
-  }
-  .buttonClik:hover {
-    background-color: #464747;
-    transition: 0.3s;
-  }
-  
+}
 
+@media (max-width: 450px) {
+  .container {
+    max-width: 360px;
 
-
-  .ift2 {
-    margin-top: 55px;
   }
-  
+
+}
