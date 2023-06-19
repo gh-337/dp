@@ -91,3 +91,27 @@ li{
     background-color: #f9f9f9; /* Задайте колір фону вашого контенту */
   
 }
+
+.dropdown-menu {
+  position: absolute;
+  display: none;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 5px;
+  min-width: 200px;
+}
+
+li.open .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+  background-color: #f2f2f2;
+}

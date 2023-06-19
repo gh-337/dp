@@ -46,6 +46,115 @@
       </div>
     </div>
   </div>
+
+
+
+  <div class="content">
+    <div class="back">
+      <div class="container">
+        <div class="D3">
+          3D basic online
+        </div>
+        <div class="white-blue"></div>
+  
+        <ul id="weeks">
+          <li class="week1">
+            Введення в курс
+            <div class="menu-item-details">
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="in.html" width="560" height="315"><img src="img/Rectangle25.svg" alt=""></a>
+                  <!-- <iframe width="560" height="315" src="https://www.youtube.com/watch?v=xb0cMDEyMzg" frameborder="0" allowfullscreen></iframe> -->
+                  
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="week2">
+            Перший тиждень
+            <div class="menu-item-details">
+              <div class="menu-item-description">
+                Опис другого тижня.
+              </div>
+              <ul class="dropdown-menu">
+                <li>Текст для другого тижня</li>
+                <li>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/ВАШЕ_ВІДЕО_ID2" frameborder="0" allowfullscreen></iframe>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="week3">
+            Другий тиждень
+            <div class="menu-item-details">
+              <div class="menu-item-description">
+                Опис третього тижня.
+              </div>
+              <ul class="dropdown-menu">
+                <li>Текст для третього тижня</li>
+                <li>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/ВАШЕ_ВІДЕО_ID3" frameborder="0" allowfullscreen></iframe>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="week4">
+            Третій тиждень
+            <div class="menu-item-details">
+              <div class="menu-item-description">
+                Опис четвертого тижня.
+              </div>
+              <ul class="dropdown-menu">
+                <li>Текст для четвертого тижня</li>
+                <li>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/ВАШЕ_ВІДЕО_ID4" frameborder="0" allowfullscreen></iframe>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="week5">
+            Четвертий тиждень
+            <div class="menu-item-details">
+              <div class="menu-item-description">
+                Опис п'ятого тижня.
+              </div>
+              <ul class="dropdown-menu">
+                <li>Текст для п'ятого тижня</li>
+                <li>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/ВАШЕ_ВІДЕО_ID5" frameborder="0" allowfullscreen></iframe>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    var menuItems = document.querySelectorAll('#weeks li');
+  
+    menuItems.forEach(function(item) {
+      item.addEventListener('click', function() {
+        if (this.classList.contains('open')) {
+          this.classList.remove('open');
+        } else {
+          closeAllMenus();
+          this.classList.add('open');
+        }
+      });
+    });
+  
+    function closeAllMenus() {
+      menuItems.forEach(function(item) {
+        item.classList.remove('open');
+      });
+    }
+  </script>
+  
+
+  
+
 </body>
 
 </html>
