@@ -1,7 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
   background-image: url(/img/fonImgJPG.jpg);
   background-repeat: no-repeat;
@@ -13,122 +9,155 @@ body {
   flex-direction: column;
   min-height: 100vh;
   /* Встановлюємо мінімальну висоту контейнера body на весь видимий екран */
-  font-family: 'Poppins', sans-serif;
-
+  font-family: "Poppins", sans-serif;
 }
+
+a {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #fff;
+  text-underline-offset: 4px;
+}
+
+
 
 .wrap {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  flex: 1 0 auto;
 }
 
 header {
-  background-color: #1C1D22;
-  color: #fff;
-  padding: 20px;
-  position: relative;
-  z-index: 2;
-}
+  margin-top: 37px;
+  width: 1024px;
+  /* background-color: #183458; */
+  /* text-align: center; */
+  top: 0;
+  height: 64px;
 
-.container {
+  margin-left: auto;
+  margin-right: auto;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.logo {
-  font-size: 24px;
+h1{
+margin: 0;
+
+  display: inline-block;
+  color: #fff;
+
+  align-self: flex-start;
+
   font-weight: 600;
+font-size: 48px;
+line-height: 72px;
 }
 
-.yello-blue {
-  background: linear-gradient(270deg, #FDB515 0%, #2A75C4 100%);
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 8px;
-  z-index: -1;
+.jcsbl{
+  align-items: center;
 }
 
-.content {
-  flex-grow: 1;
+.infoKurs{
+  display: inline-block;
+
+  align-items: center;
 }
 
-.back {
-  background-color: #fff;
-  padding: 40px 0;
+.menu {
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+  margin: auto;
+
+  color: #fff;
+
+  
 }
 
-.D3 {
-  font-size: 24px;
+.menu li {
+  margin-right: 32px;
+
+  color: #fff;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.kursA{
+  color: crimson;
+}
+
+.logReg{
+  display: inline-block;
+
+}
+
+.menu2 {
+padding: 56;
+
+  list-style: none;
+
+  display: flex;
+
+}
+
+.menu2 li {
+  margin-right: 32px;
+ 
+  font-style: normal;
   font-weight: 600;
-  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+  
+  color: #FFFFFF;
+  }
+
+.menu2 li:last-child {
+  margin-right: 0;
 }
 
-.white-blue {
-  background: linear-gradient(270deg, #FFFFFF 0%, #2A75C4 100%);
-  height: 8px;
-  margin: 20px auto;
-  width: 100px;
-}
+.rlR{
+  background-color: white;
+  border: 2px ;
+  border-radius: 6px;
+  color: black;
 
-#weeks {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
+  padding: 1px 15px;
 
-#weeks li {
-  cursor: pointer;
-  position: relative;
-  padding: 20px;
-  border-bottom: 1px solid #EAEAEA;
-}
 
-.dropdown-menu {
-  display: none;
-  background-color: #fff;
-  padding: 10px;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin-top: 5px;
-  min-width: 200px;
-}
-
-.custom-dropdown-menu {
-  display: none;
-  background-color: #fff;
-  padding: 10px;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin-top: 5px;
-  width: 940px; /* Задайте потрібну ширину */
-  height: 480px; /* Задайте потрібну висоту */
-  z-index: 9999;
-
-  position: relative !important;
-}
-
-.dropdown-menu li {
-  padding: 5px 0;
-}
-
-.dropdown-menu li a {
-  color: #333;
   text-decoration: none;
 }
 
-.dropdown-menu li a:hover {
-  color: #000;
+.content{
+
+
+  display: flex;
+  /* justify-content: center; Центрування горизонтально */
+
+  margin-top: 3%;
+  margin-left: 18%;
+
+  font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 96px;
+
+color: #FFFFFF;
+
+flex: 1 0 auto;
 }
 
-.dropdown-menu li iframe {
-  width: 100%;
-  height: 315px;
-  border: none;
-}
+footer{
+  flex-shrink: 0;
 
-#weeks li.open .dropdown-menu {
-  display: block;
+  display: flex;
+  justify-content: right;
+
+  margin-right: 13%;
+  margin-bottom: 3%;
 }
